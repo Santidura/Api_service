@@ -1,0 +1,15 @@
+a{
+    display:block ; color: black;
+    align-items: center;
+    position: relative; left: -200px;
+}
+
+a:hover{
+    background-color: black;
+}
+ div{
+    display: flex;
+    text-align: center;
+    position: relative; left: -100px;
+    background-color: rgb(255, 255, 255);
+ }
