@@ -1,15 +1,22 @@
-a{
-    display:block ; color: black;
-    align-items: center;
-    position: relative; left: -200px;
+*{
+    padding: 0;
+    margin: 0;
+    box-shadow: 20px;
 }
 
-a:hover{
-    background-color: black;
+
+table{
+    background-color: blueviolet;
+    border: 2px solid rgb(61, 61, 61);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative; left: -170px; top: 20px;
+
+
 }
- div{
-    display: flex;
-    text-align: center;
-    position: relative; left: -100px;
-    background-color: rgb(255, 255, 255);
- }
+
+body , table{
+    margin: 0;
+    padding: 0;
+    
+}
+
