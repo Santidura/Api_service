@@ -1,41 +1,35 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Blog de SDH</title>
 </head>
 <body>
+  <header>
+    <h1>Blog de SDH</h1>
+    <nav>
+      <ul>
+        <li><a href="#">-__-</a></li>
+       
+      </ul>
+    </nav>
+  </header>
 
-  <div class="container mt-10">
-    <div class="row">
-      <div class="col-sm-40 offset-5">
-        <div class="table">
-          <table class="table table-striped">
-            <thead>
-              <tr>
-                <th>name</th>
-                <th>username</th>
-                <th>email</th>
-                <th>city</th>
-                <th>websites</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr *ngFor="let user of data">
-                <td>{{ user.name }}</td>
-                <td>{{ user.username }}</td>
-                <td>{{ user.email }}</td>
-                <td>{{ user.address.city }}</td>
-                <td>{{ user.website }}</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </div>
-  </div>
+  <main>
+    <article>
+      <h2>Sobre la empresa</h2>
+      <p>SDH es una empresa ficticia líder en su industria, dedicada a ofrecer soluciones innovadoras en el ámbito de la tecnología y los servicios digitales. Con una trayectoria sólida y un enfoque centrado en la excelencia, SDH ha logrado establecerse como un referente en el mercado.</p>
+    </article>
+
+    <article>
+      <h2>Objetivo</h2>
+      <p>Nuestro objetivo principal en SDH es ayudar a nuestros clientes a transformar sus negocios y alcanzar el éxito en la era digital. Ofrecemos una amplia gama de servicios, desde consultoría estratégica hasta desarrollo de software y diseño de experiencia de usuario. Trabajamos de cerca con nuestros clientes para entender sus necesidades específicas y brindarles soluciones personalizadas y de alta calidad.</p>
+    </article>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 SDH. Todos los derechos reservados.</p>
+  </footer>
 </body>
 </html>

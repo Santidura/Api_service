@@ -1,27 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A</title>
-</head>
-<body>
-    <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="https://loremflickr.com/320/240/dog" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Randoimizador</h5>
-          <p class="card-text">Buenas para que vea que tampoco estoy copiando jaja</p>
-          <a href="https://www.youtube.com/" class="btn btn-secondary">Youtube</a>
-        </div>
+<div class="conatiner mt-5">
+  <div class="row">
+      <div class="col-md-4 mb-6" *ngFor="let product of products">
+          <div class="card" style="width: 18rem; height: 600px; ">
+              <img src="{{product.image}}" class="card-img-top" style="height: 300px; width: 286px;" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">{{product.title}}</h5>
+              </div>
+              <div>
+                  <li class="list-group-item">{{product.rating.count }}</li>  
+                  <li class="list-group-item">{{product.category}}</li>
+              </div>
+          </div> 
       </div>
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="https://loremflickr.com/320/240/paris,girl/all" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Randoimizador</h5>
-          <p class="card-text">Buenas para que vea que tampoco estoy copiando x2</p>
-          <a href="https://www.twitch.tv/" class="btn btn-dark">Twitch</a>
-        </div>
-      </div>
-</body>
-</html>
+  </div>
+</div>

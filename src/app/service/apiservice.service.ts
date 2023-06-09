@@ -7,8 +7,9 @@ import { Observable } from 'rxjs';
 })
 export class ApiserviceService {
 
+  private apiurl = 'https://fakestoreapi.com/products'
 
-  private apiurl = 'https://jsonplaceholder.typicode.com/users'
+  
   constructor( private http : HttpClient) { }
 
   public getapi() : Observable<any>{
@@ -16,4 +17,9 @@ export class ApiserviceService {
     
   }
 
+
 }
+
+
+
+

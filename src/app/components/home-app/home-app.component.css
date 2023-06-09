@@ -1,22 +1,56 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-shadow: 20px;
+html{
+    position: relative; left: -200px;
 }
 
-
-table{
-    background-color: blueviolet;
-    border: 2px solid rgb(61, 61, 61);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    position: relative; left: -170px; top: 20px;
-
-
-}
-
-body , table{
+body {
+    background-color: #f0f0f0;
+    color: #333333;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    
-}
-
+  }
+  
+  header {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  article {
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    color: #000000;
+  }
+  
+  footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+  }
